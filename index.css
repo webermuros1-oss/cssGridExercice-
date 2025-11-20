@@ -1,0 +1,8 @@
+.grid { 
+display: grid;
+grid-template-columns: repeat(10,1fr);
+gap: 15px;
+width: 100%;
+padding: 20%;
+box-sizing: border-box;
+}
