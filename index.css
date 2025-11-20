@@ -6,3 +6,12 @@ width: 100%;
 padding: 20%;
 box-sizing: border-box;
 }
+
+.cardHorizontal1 {
+  grid-column: 1 / 6;
+  grid-row: 1;
+}
+
+.cardHorizontal2 {
+
+}
