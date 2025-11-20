@@ -26,6 +26,8 @@ border: bisque 1px solid;
 border-radius: 8px;
 font-size: 1em;
 cursor: pointer;
+height: 200px;
+width: auto;
 
 
 }
@@ -41,44 +43,74 @@ grid-column-end: 4;
 background-color: aquamarine;
 grid-column-start: 4;
 grid-column-end: 7;
+    background-image: url("images/bayek.avif");
+    background-size: cover;
+    background-position: center;
 }
+
 .parte-3{
   background-color: aqua;
   grid-column-start: 1;
 grid-column-end: 2;
+background-image: url("images/altair 1.webp");
+    background-size: cover;
+    background-position: center;
 }
+
 .parte-4{
   background-color: blue;
   grid-column-start: 2;
 grid-column-end: 3;
+background-image: url("images/arno-dorian-1280-x-1747-wallpaper-4db2vdbopv23wxw4.webp");
+    background-size: cover;
+    background-position: center;
 }
 .parte-5{
   background-color: rgb(134, 19, 100);
-   grid-column-start: 3;
+grid-column-start: 3;
 grid-column-end: 6;
 grid-row: span 2;
+background-image: url("images/cassadra.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 .parte-6{
   background-color: rgb(177, 38, 45);
-
+background-image: url("images/connor.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .parte-7{
   background-color: blueviolet;
-   grid-column-start: 1;
+  grid-column-start: 1;
 grid-column-end: 3;
+background-image: url("images/dibujo assasins.avif");
+    background-size: cover;
+    background-position: center;
+    
 }
 .parte-8{
   background-color: blue;
-
+background-image: url("images/edwar.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .parte-9{
   background-color: aquamarine;
+  background-image: url("images/ezio-auditore-da-firenze 2.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .parte-10{
   background-color: blue;
-
+background-image: url("images/JacobandEvieFrye.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .parte-11{
   grid-column-start:3 ;
 grid-column-end:7 ;
+background-image: url("images/shadows.avif");
+    background-size: cover;
+    background-position: center;
 }
