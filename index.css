@@ -9,5 +9,76 @@ body{
 
 .contenedor{
   width: 700px;
+  max-width: 100%;
+  margin: 100px auto;
+  margin-top: 2em;
+  padding: 20px;
+  box-shadow: 20px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
   
+}
+
+.hijo{
+background-color: yellow;
+padding: 22px;
+border: bisque 1px solid;
+border-radius: 8px;
+font-size: 1em;
+cursor: pointer;
+
+
+}
+.hijo:hover{
+color: azure;
+}
+.parte-1{
+background-color: bisque;
+grid-column-start: 1;
+grid-column-end: 4;
+}
+.parte-2{
+background-color: aquamarine;
+grid-column-start: 4;
+grid-column-end: 7;
+}
+.parte-3{
+  background-color: aqua;
+  grid-column-start: 1;
+grid-column-end: 2;
+}
+.parte-4{
+  background-color: blue;
+  grid-column-start: 2;
+grid-column-end: 3;
+}
+.parte-5{
+  background-color: rgb(134, 19, 100);
+   grid-column-start: 3;
+grid-column-end: 6;
+grid-row: span 2;
+}
+.parte-6{
+  background-color: rgb(177, 38, 45);
+
+}
+.parte-7{
+  background-color: blueviolet;
+   grid-column-start: 1;
+grid-column-end: 3;
+}
+.parte-8{
+  background-color: blue;
+
+}
+.parte-9{
+  background-color: aquamarine;
+}
+.parte-10{
+  background-color: blue;
+
+}
+.parte-11{
+  grid-column-start:3 ;
+grid-column-end:7 ;
 }
