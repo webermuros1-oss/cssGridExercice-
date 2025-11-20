@@ -21,107 +21,114 @@ body{
 }
 
 .hijo{
-background-color: yellow;
-padding: 22px;
-border: bisque 1px solid;
-border-radius: 8px;
-font-size: 1em;
-cursor: pointer;
-height: 200px;
-width: auto;
+  background-color: yellow;
+  padding: 22px;
+  border: bisque 1px solid;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  height: 200px;
+  width: auto;
 
 
 }
 .hijo:hover{
-color: azure;
+  color: azure;
 }
+
+
 .parte-1{
-background-color: bisque;
-grid-column-start: 1;
-grid-column-end: 4;
+  background-color: bisque;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 .parte-2{
-background-color: aquamarine;
-grid-column-start: 4;
-grid-column-end: 7;
-    background-image: url("images/bayek.avif");
-    background-size: cover;
-    background-position: center;
+  background-color: aquamarine;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  background-image: url("images/bayek.avif");
+  background-size: cover;
+  background-position: center;
 }
 
 .parte-3{
   background-color: aqua;
   grid-column-start: 1;
-grid-column-end: 2;
-background-image: url("images/altair 1.webp");
-    background-size: cover;
-    background-position: center;
+  grid-column-end: 2;
+  background-image: url("images/altair 1.webp");
+  background-size: cover;
+  background-position: center;
 }
 
 .parte-4{
   background-color: blue;
   grid-column-start: 2;
-grid-column-end: 3;
-background-image: url("images/arno-dorian-1280-x-1747-wallpaper-4db2vdbopv23wxw4.webp");
-    background-size: cover;
-    background-position: center;
+  grid-column-end: 3;
+  background-image: url("images/arno-dorian-1280-x-1747-wallpaper-4db2vdbopv23wxw4.webp");
+  background-size: cover;
+  background-position: center;
 }
 .parte-5{
   background-color: rgb(134, 19, 100);
-display: grid;
-grid-column-start: 3;
-grid-column-end: 6;
-grid-template-rows: 2;
-background-image: url("images/todos juntos.jpg");
-    background-size: cover;
-    background-position: center;
-    
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-template-rows: 2 ;
+  background-image: url("images/todos juntos.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
 .parte-6{
   background-color: rgb(177, 38, 45);
-background-image: url("images/connor.jpg");
-    background-size: cover;
-    background-position: center;
+  background-image: url("images/connor.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
+
 .parte-7{
   background-color: blueviolet;
   grid-column-start: 1;
-grid-column-end: 3;
-grid-template-rows:1fr ;
-background-image: url("images/dibujo assasins.avif");
+  grid-column-end: 3;
+  grid-template-rows:1fr ;
+  background-image: url("images/dibujo assasins.avif");
 
-    background-size: cover;
-    background-position: center;
     
+  background-size: cover;
+  background-position: center;
+  
 }
 .parte-8{
   background-color: blue;
-   grid-column-start:6;
-grid-column-end:7;
-background-image: url("images/edwar.jpg");
-    background-size: cover;
-    background-position: center;
+  grid-column-start:6;
+  grid-column-end:7;
+  background-image: url("images/edwar.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .parte-9{
   background-color: aquamarine;
-   grid-column-start:1 ;
-grid-column-end:2;
+  grid-column-start:1 ;
+  grid-column-end:2;
   background-image: url("images/ezio-auditore-da-firenze 2.jpg");
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 .parte-10{
   background-color: blue;
-   grid-column-start:2 ;
-grid-column-end:3 ;
-background-image: url("images/JacobandEvieFrye.jpg");
-    background-size: cover;
-    background-position: center;
+  grid-column-start:2 ;
+  grid-column-end:3 ;
+  background-image: url("images/JacobandEvieFrye.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
+
 .parte-11{
-  grid-column-start:3 ;
-grid-column-end:7 ;
-background-image: url("images/shadows.avif");
-    background-size: cover;
-    background-position: center;
+  grid-column-start:3 ; 
+  grid-column-end:7 ;
+  background-image: url("images/shadows.avif");
+  background-size: cover;
+  background-position: center;
 }
