@@ -16,6 +16,7 @@ body{
   box-shadow: 20px;
   display: grid;
   grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 1 fr 2 fr;
   
 }
 
@@ -67,12 +68,14 @@ background-image: url("images/arno-dorian-1280-x-1747-wallpaper-4db2vdbopv23wxw4
 }
 .parte-5{
   background-color: rgb(134, 19, 100);
+display: grid;
 grid-column-start: 3;
 grid-column-end: 6;
-grid-row: span 2;
-background-image: url("images/cassadra.jpeg");
+grid-template-rows: 2;
+background-image: url("images/todos juntos.jpg");
     background-size: cover;
     background-position: center;
+    
 }
 .parte-6{
   background-color: rgb(177, 38, 45);
@@ -84,25 +87,33 @@ background-image: url("images/connor.jpg");
   background-color: blueviolet;
   grid-column-start: 1;
 grid-column-end: 3;
+grid-template-rows:1fr ;
 background-image: url("images/dibujo assasins.avif");
+
     background-size: cover;
     background-position: center;
     
 }
 .parte-8{
   background-color: blue;
+   grid-column-start:6;
+grid-column-end:7;
 background-image: url("images/edwar.jpg");
     background-size: cover;
     background-position: center;
 }
 .parte-9{
   background-color: aquamarine;
+   grid-column-start:1 ;
+grid-column-end:2;
   background-image: url("images/ezio-auditore-da-firenze 2.jpg");
     background-size: cover;
     background-position: center;
 }
 .parte-10{
   background-color: blue;
+   grid-column-start:2 ;
+grid-column-end:3 ;
 background-image: url("images/JacobandEvieFrye.jpg");
     background-size: cover;
     background-position: center;
