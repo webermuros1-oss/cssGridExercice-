@@ -13,11 +13,9 @@ body{
   margin: 100px auto;
   margin-top: 2em;
   padding: 20px;
-  box-shadow: 20px;
   display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-template-rows: 1 fr 2 fr;
-  
+  grid-template-columns: repeat(3,1fr);
+grid-template-rows: 7;
 }
 
 .hijo{
@@ -27,7 +25,7 @@ body{
   border-radius: 8px;
   font-size: 1em;
   cursor: pointer;
-  height: 200px;
+  
   width: auto;
 
 
@@ -40,11 +38,11 @@ body{
 .parte-1{
   background-color: bisque;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
 }
 .parte-2{
   background-color: aquamarine;
-  grid-column-start: 4;
+  grid-column-start: 3;
   grid-column-end: 7;
   background-image: url("images/bayek.avif");
   background-size: cover;
@@ -69,19 +67,17 @@ body{
   background-position: center;
 }
 .parte-5{
-  background-color: rgb(134, 19, 100);
-  display: grid;
-  grid-column-start: 3;
-  grid-column-end: 6;
-  grid-row: 2;
-  grid-template-rows:2 ;
-  background-image: url("images/cassadra.jpeg ");
+  background-color: brown;
+  grid-template-rows: ;
+  background-image: url(images/cassadra.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .parte-6{
   background-color: rgb(177, 38, 45);
+  grid-column-start: 6;
+  grid-column-end: 7;
   background-image: url("images/connor.jpg");
   background-size: cover;
   background-position: center;
